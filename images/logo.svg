@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420">
+  <circle cx="210" cy="210" r="208" fill="#fbf6ef"/>
+  <text x="210" y="148" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="8" fill="#6b3f3a">STUDIO</text>
+  <text x="210" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="8" fill="#6b3f3a">PLEIADI</text>
+  <text x="210" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#6b3f3a">Il tuo angolo di Psicologia</text>
+  <text x="210" y="254" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#6b3f3a">nel cuore di Milano</text>
+  <g fill="none" stroke="#6b3f3a" stroke-width="1.5">
+    <path d="M108 300c12-18 28-18 34 2 4 14-8 28-22 22-10-4-16-16-12-24z"/>
+    <path d="M98 310c6 8 16 10 24 2"/>
+    <path d="M142 296c18 2 38 2 56 0"/>
+    <path d="M198 296c0-8 12-12 16-2-8 2-8 10 0 12-6 8-18 4-16-10z"/>
+    <path d="M214 296c18 2 38 2 56 0"/>
+    <circle cx="298" cy="296" r="22"/>
+    <path d="M288 300c6-10 16-10 20 0 2 8-6 14-12 10"/>
+  </g>
+</svg>
