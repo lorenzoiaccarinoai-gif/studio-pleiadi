@@ -17,6 +17,7 @@ if (toggle && mobile) {
     link.addEventListener("click", () => {
       mobile.setAttribute("hidden", "");
       toggle.setAttribute("aria-expanded", "false");
+      toggle.setAttribute("aria-label", "Apri menu");
     });
   });
 }
