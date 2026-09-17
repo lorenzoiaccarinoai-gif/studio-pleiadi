@@ -16,14 +16,4 @@ images/
   botanical-right.svg
 ```
 
-## Sviluppo locale
-
-Apri `index.html` nel browser, oppure:
-
-```bash
-python3 -m http.server 8080
-```
-
-## GitHub Pages
-
-Imposta Pages su branch `main`, cartella `/` (root), oppure usa il workflow in `.github/workflows/pages.yml`.
+Apri `index.html` nel browser per vedere il sito.
