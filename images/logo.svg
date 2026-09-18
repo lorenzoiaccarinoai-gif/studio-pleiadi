@@ -1,16 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420">
-  <circle cx="210" cy="210" r="208" fill="#fbf6ef"/>
-  <text x="210" y="148" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="8" fill="#6b3f3a">STUDIO</text>
-  <text x="210" y="192" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="34" letter-spacing="8" fill="#6b3f3a">PLEIADI</text>
-  <text x="210" y="232" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#6b3f3a">Il tuo angolo di Psicologia</text>
-  <text x="210" y="254" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-style="italic" fill="#6b3f3a">nel cuore di Milano</text>
-  <g fill="none" stroke="#6b3f3a" stroke-width="1.5">
-    <path d="M108 300c12-18 28-18 34 2 4 14-8 28-22 22-10-4-16-16-12-24z"/>
-    <path d="M98 310c6 8 16 10 24 2"/>
-    <path d="M142 296c18 2 38 2 56 0"/>
-    <path d="M198 296c0-8 12-12 16-2-8 2-8 10 0 12-6 8-18 4-16-10z"/>
-    <path d="M214 296c18 2 38 2 56 0"/>
-    <circle cx="298" cy="296" r="22"/>
-    <path d="M288 300c6-10 16-10 20 0 2 8-6 14-12 10"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 420" role="img" aria-label="Studio Pleiadi">
+  <circle cx="210" cy="210" r="210" fill="#f7f1ea"/>
+  <text x="210" y="118" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="6.5" fill="#6a3d38">STUDIO</text>
+  <text x="210" y="158" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="28" letter-spacing="6.5" fill="#6a3d38">PLEIADI</text>
+  <text x="210" y="198" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#6a3d38">Il tuo angolo di Psicologia nel</text>
+  <text x="210" y="218" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="13.5" fill="#6a3d38">cuore di Milano</text>
+  <g fill="none" stroke="#6a3d38" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M86 268c-8-22 6-48 32-54 24-6 48 10 54 32 6 24-10 50-34 56-10 2-18 2-24 0l-10 16 2-20c-12-6-20-16-20-30z"/>
+    <path d="M112 232c8 14-2 36-16 42 18-2 36-8 42-22 8-16 2-34-12-40-10-4-20 2-14 20z"/>
+    <path d="M104 248c16 8 28-6 22-20-4-10-18-8-16 6 14 4 18-12 8-16"/>
+    <path d="M128 256c-10 12-24 8-28-6 12 2 22-8 16-16"/>
+    <path d="M170 278c18-2 40-4 62-2"/>
+    <path d="M232 268c3-8 14-12 18-2-9 1-9 11 1 12-6 9-18 4-19-10z"/>
+    <path d="M250 278c20-1 42 0 64 2"/>
+    <path d="M318 248c26-4 48 16 46 40-2 24-26 42-50 38-18-2-34-18-34-36 0-16 14-38 38-42z"/>
+    <path d="M328 262c18 4 26 22 16 36-12 14-32 8-34-10-2-14 12-28 28-24 6 2 8 10 2 16"/>
+    <path d="M348 278c-10 12-24 10-28-4"/>
   </g>
 </svg>
