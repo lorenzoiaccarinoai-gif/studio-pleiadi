@@ -10,6 +10,7 @@
   --radius: 1.75rem;
   --shadow: 0 16px 40px rgba(74, 47, 44, 0.1);
   --ease: cubic-bezier(0.2, 0, 0, 1);
+  --stars: #d8c9aa;
 }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -98,11 +99,11 @@ button { font: inherit; cursor: pointer; }
 .seal {
   width: min(720px, 92vw); aspect-ratio: 1; border-radius: 50%; background: transparent;
   box-shadow: none; display: grid; place-items: center; padding: 0;
-  border: none;
+  border: 12px solid var(--stars);
   animation: sealIn 900ms var(--ease) both;
   transition: transform 220ms var(--ease);
 }
-.seal:hover { transform: translateY(-6px) scale(1.02); box-shadow: var(--shadow); }
+.seal:hover { transform: translateY(-6px) scale(1.02); box-shadow: var(--shadow); border-color: var(--stars); }
 .seal-logo { width: 92%; height: auto; }
 
 .block { width: min(1080px, 88vw); margin: 0 auto; padding: 5.5rem 0 2rem; }
