@@ -123,10 +123,13 @@ h3 { font-family: "Cormorant Garamond", serif; font-size: 1.45rem; font-weight: 
   width: 100%;
   aspect-ratio: 1 / 1;
   object-fit: cover;
+  object-position: center center;
   border-radius: 1.15rem;
   margin: -0.2rem 0 1rem;
   display: block;
   background: var(--sand);
+  image-rendering: -webkit-optimize-contrast;
+  image-rendering: crisp-edges;
 }
 .role, .handle { font-size: 0.78rem; letter-spacing: 0.04em; color: var(--mauve); }
 .handle { margin-top: 0.9rem; transition: color 200ms var(--ease), transform 200ms var(--ease); }
