@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --cream: #f4ece3;
   --paper: #fbf6ef;
   --sand: #e7d8c8;
@@ -37,7 +37,7 @@ button { font: inherit; cursor: pointer; }
   font-family: "Cormorant Garamond", serif; letter-spacing: 0.18em; text-transform: uppercase;
   font-size: 0.95rem; color: var(--soft); justify-self: start;
   transition: opacity 200ms var(--ease), transform 200ms var(--ease);
-  display: flex; align-items: center;
+  display: flex; align-items: center; gap: 10px; gap: 10px; gap: 10px; gap: 10px;
 }
 .brand-text { font-weight: 500; }
 .brand-logo {
@@ -91,7 +91,7 @@ button { font: inherit; cursor: pointer; }
 .nav-mobile[hidden] { display: none; }
 .nav-mobile a { width: 100%; text-align: center; }
 
-.hero { min-height: 92vh; display: flex; align-items: center; justify-content: center; padding: 9rem 20px 5rem; position: relative; overflow: hidden; }
+.hero { min-height: 92vh; display: flex; align-items: center; gap: 10px; gap: 10px; gap: 10px; gap: 10px; justify-content: center; padding: 9rem 20px 5rem; position: relative; overflow: hidden; }
 .botanical { position: absolute; width: min(280px, 40vw); opacity: 0.55; pointer-events: none; }
 .botanical-l { left: -20px; bottom: 4%; animation: drift 12s var(--ease) infinite alternate; }
 .botanical-r { right: -10px; top: 10%; animation: drift 14s var(--ease) infinite alternate-reverse; }
@@ -145,7 +145,25 @@ h3 { font-family: "Cormorant Garamond", serif; font-size: 1.45rem; font-weight: 
 }
 .reveal.is-visible { opacity: 1; transform: none; filter: none; }
 
-footer { padding: 4rem 20px 3rem; }
+
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 0.4rem;
+}
+.footer-logo {
+  height: 56px;
+  width: auto;
+  display: block;
+  margin-bottom: 0.4rem;
+}footer { padding: 4rem 20px 3rem; }
 .footer-card {
   max-width: 1040px; margin: 0 auto; text-align: center; background: var(--paper);
   border: 1px solid var(--line); border-radius: var(--radius); padding: 2rem 1.5rem;
