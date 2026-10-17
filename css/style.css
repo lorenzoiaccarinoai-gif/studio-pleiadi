@@ -131,6 +131,21 @@ h3 { font-family: "Cormorant Garamond", serif; font-size: 1.45rem; font-weight: 
   image-rendering: -webkit-optimize-contrast;
   image-rendering: crisp-edges;
 }
+.team-placeholder {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 1.15rem;
+  margin: -0.2rem 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--sand);
+  color: var(--mauve);
+  font-family: "Cormorant Garamond", serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  letter-spacing: 0.05em;
+}
 .role, .handle { font-size: 0.78rem; letter-spacing: 0.04em; color: var(--mauve); }
 .handle { margin-top: 0.9rem; transition: color 200ms var(--ease), transform 200ms var(--ease); }
 .handle:hover { color: var(--soft); transform: translateY(-1px); }
