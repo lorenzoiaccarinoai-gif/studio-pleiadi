@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --cream: #f4ece3;
   --paper: #f4ece3;
   --sand: #e7d8c8;
@@ -134,14 +134,22 @@ h3 { font-family: "Cormorant Garamond", serif; font-size: 1.45rem; font-weight: 
   z-index: 1;
 }
 .team-photo {
-  width: 100%;
+  width: 88px;
+  height: 88px;
   aspect-ratio: 1 / 1;
   object-fit: cover;
   object-position: center center;
-  border-radius: 1.15rem;
-  margin: -0.2rem 0 1rem;
+  border-radius: 50%;
   display: block;
-  background: var(--sand);}
+  background: var(--sand);
+  position: absolute;
+  top: -44px;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 3px solid #f4ece3;
+  box-shadow: 0 4px 14px rgba(107, 63, 58, 0.12);
+  z-index: 2;
+}
 .team-placeholder {
   width: 100%;
   aspect-ratio: 1 / 1;
@@ -209,3 +217,41 @@ footer { padding: 2.8rem 20px 2.1rem; }
   .seal { width: min(320px, 70vw); }
   }
 
+
+
+
+/* === Override team: foto circolari staccate + 5 su un livello === */
+.team-grid {
+  display: grid !important;
+  grid-template-columns: repeat(5, 1fr) !important;
+  gap: 1.4rem !important;
+  margin-top: 3rem !important;
+  align-items: start !important;
+}
+@media (max-width: 1100px) {
+  .team-grid {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)) !important;
+  }
+}
+.person {
+  position: relative !important;
+  text-align: center !important;
+  padding: 3.2rem 1.1rem 1.3rem !important;
+}
+.team-photo {
+  width: 88px !important;
+  height: 88px !important;
+  aspect-ratio: 1 / 1 !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  display: block !important;
+  position: absolute !important;
+  top: -44px !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  margin: 0 !important;
+  border: 3px solid #f4ece3 !important;
+  box-shadow: 0 4px 14px rgba(107, 63, 58, 0.12) !important;
+  z-index: 2 !important;
+  background: var(--sand) !important;
+}
