@@ -270,3 +270,15 @@ footer { padding: 2.8rem 20px 2.1rem; }
   letter-spacing: 0.04em;
   margin: 0;
 }
+/* Immagine sezione Percorsi di cura */
+.section-image {
+  width: 100%;
+  max-width: 720px;
+  height: auto;
+  display: block;
+  margin: 1.8rem auto 2.2rem;
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  object-fit: contain;
+  background: transparent;
+}
