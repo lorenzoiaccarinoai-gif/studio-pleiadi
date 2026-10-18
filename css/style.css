@@ -226,7 +226,7 @@ footer { padding: 2.8rem 20px 2.1rem; }
   grid-template-columns: repeat(5, 1fr) !important;
   gap: 1.4rem !important;
   margin-top: 3rem !important;
-  align-items: start !important;
+  align-items: stretch !important;
 }
 @media (max-width: 1100px) {
   .team-grid {
@@ -234,7 +234,7 @@ footer { padding: 2.8rem 20px 2.1rem; }
   }
 }
 .person {
-  position: relative !important;
+  position: relative !important; height: 100%; display: flex; flex-direction: column;
   text-align: center !important;
   padding: 3.2rem 1.1rem 1.3rem !important;
 }
@@ -254,4 +254,19 @@ footer { padding: 2.8rem 20px 2.1rem; }
   box-shadow: 0 4px 14px rgba(107, 63, 58, 0.12) !important;
   z-index: 2 !important;
   background: var(--sand) !important;
+}
+
+/* Title between header and hero */
+.page-intro {
+  text-align: center;
+  padding: 1.2rem 20px 0.4rem;
+  margin-top: 0.5rem;
+}
+.page-title {
+  font-family: "Cormorant Garamond", serif;
+  font-size: clamp(1.4rem, 3.5vw, 2rem);
+  font-weight: 500;
+  color: var(--mauve);
+  letter-spacing: 0.04em;
+  margin: 0;
 }
